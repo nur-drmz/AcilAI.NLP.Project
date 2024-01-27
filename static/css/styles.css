@@ -1,0 +1,83 @@
+
+    /* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/Pictures/AI.jpg'); /* Doğru yol */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Diğer stiller buraya eklenir */
+  
+  
+  /* Diğer stiller buraya eklenir */
+  
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      order: -1;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-around;
+      flex-grow: 1;
+      max-width: 1200px;
+      margin: 20px auto;
+      width: 100%;
+    }
+
+    .form-container {
+      width: 45%;
+      box-sizing: border-box;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #inputArea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    #analyzeButton {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+      /* Kenarları yuvarlak yapma */
+      transition: background-color 0.3s;
+      /* Geçiş efekti ekleme */
+    }
+
+    #analyzeButton:hover {
+      background-color: #45a049;
+      /* Butona mouse ile hover yapıldığında rengini değiştirme */
+    }
+
+    .Area {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #dff0d8;
+      border: 1px solid #d6e9c6;
+      color: #3c763d;
+    }
+  
