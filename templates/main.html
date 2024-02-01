@@ -20,7 +20,7 @@
       <form method="post" action="{% url 'predictor' %}">
         {% csrf_token %}
         <textarea name="text_input" id="inputArea" placeholder="Buraya metni girin..."></textarea>
-        <button type="submit" id="analyzeButton" class="styledButton">Earthquake Model Analiz</button>
+        <button type="submit" id="analyzeButton" class="styledButton">ELECTRA Model Analiz</button>
       </form>
 
       <div class="Area">
@@ -38,11 +38,12 @@
 
     <!-- Second form on the right side -->
     <div class="form-container">
+
       <form method="post" action="{% url 'predictor2' %}">
         {% csrf_token %}
         <!-- Textarea'nın name kısmını text_input olarak değiştirdim -->
         <textarea name="text_input" id="inputArea" placeholder="Buraya metni girin..."></textarea>
-        <button type="submit" id="analyzeButton" class="styledButton">Acil AI Model Analiz</button>
+        <button type="submit" id="analyzeButton" class="styledButton">BERT Model Analiz</button>
       </form>
 
       <div class="Area">
